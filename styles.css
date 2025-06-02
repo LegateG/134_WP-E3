@@ -23,7 +23,14 @@ label{
     display: block;
     margin-bottom: 5px;
     color:royalblue;
-    font-weight: 500;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height:10px;
+}
+legend{
+    margin-bottom: 5px;
+    color:royalblue;
+    font-weight: bold;
     padding-bottom: 20px;
     line-height:10px;
 }
@@ -35,6 +42,15 @@ input[type="name"], input[type="email"], input[type="password"]{
     border-radius: 25px;
     box-sizing: border-box;
 }
+fieldset label{
+    margin-bottom: 5px;
+    color:black;
+    font-weight: normal;
+    display: inline;
+    padding-bottom: 20px;
+    line-height:10px;
+}
+
 input[type="submit"]{
     background-color: darkviolet;
     color: white;
