@@ -15,7 +15,8 @@ form{
 head{
     font-size: larger;
     font-weight: bold;
-    text-align: start;
+    text-align: center;
+    color: gold;
     padding-bottom: 20px;
 }
 label{
@@ -28,7 +29,7 @@ label{
 }
 input[type="name"], input[type="email"], input[type="password"]{
     width: 100%;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     margin: 10px;
     border: 2px solid black;
     border-radius: 25px;
