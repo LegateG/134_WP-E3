@@ -83,11 +83,11 @@ input[type="submit"], input[type="reset"] {
     background-color: dimgray;
 }
 input[type="reset"] {
-    background-color: #violet;
+    background-color: violet;
 }
 
 input[type="reset"]:hover {
-    background-color: #pink;
+    background-color: pink;
 }
 footer {
     text-align: center;
