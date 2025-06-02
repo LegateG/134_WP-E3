@@ -59,7 +59,6 @@ fieldset label{
 input[type="radio"] {
     margin-right: 5px;
 }
-
 .error {
     color: red;
     font-size: 14px;
@@ -70,7 +69,7 @@ input[type="radio"] {
     gap: 15px;
     margin-top: 20px;
 }
-input[type="submit"], input[type="reset"] {
+input[type="submit"]{
     background-color: darkviolet;
     color: white;
     padding: 10px;
@@ -79,15 +78,23 @@ input[type="submit"], input[type="reset"] {
     cursor: pointer;
     flex: 1; 
     min-width: 0;
-}input[type="submit"]:hover{
+}
+input[type="submit"]:hover{
     background-color: dimgray;
 }
 input[type="reset"] {
-    background-color: violet;
+    background-color: darkred;
+    color: lightgrey;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    flex: 1; 
+    min-width: 0;
 }
 
 input[type="reset"]:hover {
-    background-color: pink;
+    background-color: lightcoral;
 }
 footer {
     text-align: center;
