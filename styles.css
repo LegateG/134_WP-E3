@@ -27,12 +27,13 @@ label{
     padding-bottom: 20px;
     line-height:10px;
 }
-input[type="name"], input[type="email"], input[type="password"]{
+input[type="text"], input[type="email"], input[type="password"]{
     width: 100%;
     padding: 10px 0px 10px 0px;
-    margin: 10px;
+    margin: 10px 0px;
     border: 2px solid black;
     border-radius: 25px;
+    box-sizing: border-box;
 }
 input[type="submit"]{
     background-color: darkviolet;
